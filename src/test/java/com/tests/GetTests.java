@@ -108,7 +108,7 @@ public class GetTests extends BaseTest {
 		//Verify the status code
 		int respCode = response.getStatusCode();
 		test.log(Status.INFO,"Response Code for GET req: - "+respCode);
-		Assert.assertEquals(respCode, 403, "Expected return of status code 404");
+		Assert.assertEquals(respCode, 404, "Expected return of status code 404");
 		test.log(Status.PASS,"Response Code for GET Invalid posts req: - "+respCode);
 
 	}
