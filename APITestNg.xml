@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Basic Test">
+	<test name="API Testing" preserve-order="true">
+		<classes>
+		    <class name="com.tests.GetTests"  /> 
+			<class name="com.tests.PostTests"  /> 
+			<class name="com.tests.PutTests"  />
+			<class name="com.tests.DeleteTests"  /> 		
+		</classes>	
+	</test>
+</suite>
