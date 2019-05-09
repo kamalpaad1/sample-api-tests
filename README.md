@@ -24,11 +24,12 @@ Test URL used: http://jsonplaceholder.typicode.com/
 
 ### Execution:
 
-'''
+```
 > - clone the git repository to local machine: git clone git@github.com/kamalpaad1/APITesting.git
 > - Run Maven command: mvn clean install -Duser.Env=QA
 Here user.Env is a parameter which accepts user environment (currently QA, Prod)
-'''
+
+```
 
 Success Case
 ![Success Scenario](https://github.com/kamalpaad1/sample-api-tests/blob/master/pics/successScenario.png)
@@ -41,11 +42,13 @@ When project build is success, then reports will be generated in Reports folder 
 
 In Case of Sucess or Failure, information on each test scenario is available in details
 
-###Success Report:
+Success Report:
 ![Success Report](https://github.com/kamalpaad1/sample-api-tests/blob/master/pics/successExtentReport.PNG)
       
-###Failure Report : (Deliberately in invalid posts scenario, 403 was mentioned instead of 404 for failure)
+Failure Report : (Deliberately in invalid posts scenario, 403 was mentioned instead of 404 for failure)
 
 ![Error Report](https://github.com/kamalpaad1/sample-api-tests/blob/master/pics/errorExtentReport.PNG)
+
+Details of specific test case
 
 ![Error Details](https://github.com/kamalpaad1/sample-api-tests/blob/master/pics/extentReportDetails1.PNG)
